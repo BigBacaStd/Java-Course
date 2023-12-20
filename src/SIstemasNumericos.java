@@ -3,7 +3,7 @@ import javax.swing.*;
 public class SIstemasNumericos {
     public static void main(String[] args) {
 
-        String numeroStr = JOptionPane.showInputDialog(null, "Ingrese in numero entero:");
+        String numeroStr = JOptionPane.showInputDialog(null, "Ingrese un numero entero:");
         int numeroDecimal = 0;
         try{
             numeroDecimal = Integer.parseInt(numeroStr); Integer.parseInt(numeroStr);
