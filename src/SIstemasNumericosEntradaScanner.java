@@ -19,7 +19,7 @@ public class SIstemasNumericosEntradaScanner {
             System.exit(0);
         }
 
-        System.out.println("numeroDecimal = " + numeroDecimal);
+        System.out.println("numero Decimal = " + numeroDecimal);
 
         String mensajeBinario = "numero Binario de = " + numeroDecimal + " = " + Integer.toBinaryString(numeroDecimal);
 
